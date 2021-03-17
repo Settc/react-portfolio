@@ -3,7 +3,7 @@ import Main from "../Main/Main"
 import Portfolio from "../Portfolio/Portfolio"
 import Contact from "../Contact/Contact"
 import Footer from "../Footer/Footer"
-import { HashRouter, Route } from "react-router-dom"
+import { Route, HashRouter } from "react-router-dom"
 
 
 function App() {
@@ -16,7 +16,8 @@ function App() {
       <Route path="/" exact component={Main} />
       <Route path="/portfolio" exact component={Portfolio} />
       <Route path="/contact" exact component={Contact} />
-    </HashRouter>
+    </HashRouter>    
+    
 
     <Footer />
     </div>
