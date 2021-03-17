@@ -1,6 +1,6 @@
 # React Portfolio
 
-https://settc.github.io/react-portfolio/
+https://settc.github.io/react-portfolio/#/
 
 ## Description
 ![License](https://img.shields.io/badge/License-MIT-blue.svg)
