@@ -13,9 +13,9 @@ function App() {
     <Header />
 
     <HashRouter>
-      <Route path="/" exact component={Main} />
-      <Route path="/portfolio" exact component={Portfolio} />
-      <Route path="/contact" exact component={Contact} />
+      <Route path="/react-portfolio/#/" exact component={Main} />
+      <Route path="/react-portfolio/#/portfolio" exact component={Portfolio} />
+      <Route path="/react-portfolio/#/contact" exact component={Contact} />
     </HashRouter>    
     
 
