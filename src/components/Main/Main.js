@@ -1,13 +1,12 @@
+
+
 function Main() {
     return(
-        <div class="cf ph7-ns ">
-            <div className="fl w-75 w-50-ns ph6">
-                <img src="14233154_10154471257388498_8193920747199696841_n.jpg" class="mw-25 f5 measure br-100 ba b--black-10 h4 w4" alt="" />
-                    
-            </div>
-            
-            <div className="fl w-75 w-50-ns mh5">
-                <p class="measure lh-copy">
+        <div className="w-75-l ph7-ns container flex center-l bg-light-gray">
+            <div className="ml5 p4">
+                <img src="14233154_10154471257388498_8193920747199696841_n.jpg" class=" fl mr2 br4 h4 w4 dib" alt="" />
+                
+                <p class="lh-copy">
                     I'm a full-stack web developer for hire, living in Columbus, Ohio.
                     In addition to
                     attending a web developer bootcamp at Ohio State University,
@@ -23,9 +22,13 @@ function Main() {
                     to relocate.
                 </p>
             </div>
+            
+            
         </div>
     )
 }
+
+// mw-25 f5 fl measure br-100 ba b--black-10 h4 w4 mr1
 
 export default Main
 
