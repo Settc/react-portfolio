@@ -1,6 +1,6 @@
 import "./card.css"
 
-function Card( {img, name, github, deployed, info} ) {
+function Card( {img, name, github, deployed} ) {
     return(
 <div class="ba dark-gray b--black-10 mh2">
   <img src={img} class="db br2 br--top center" alt="" />
@@ -14,9 +14,6 @@ function Card( {img, name, github, deployed, info} ) {
         <h4 class=" mv0">{deployed}</h4>
       </div>
     </div>
-    <p class="f6 lh-copy measure mt2 mid-gray">
-      {info}
-    </p>
   </div>
 </div>
 
