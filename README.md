@@ -4,8 +4,8 @@ https://settc.github.io/react-portfolio/#/
 
 ## Description
 ![License](https://img.shields.io/badge/License-MIT-blue.svg)
-    This app renders a table of employee data, with a search bar at the top which allows
-    filtering based on name.
+    This is my professional portfolio, built entirely with React to display all my web development
+    projects.
     
 
 ## Table of Contents
